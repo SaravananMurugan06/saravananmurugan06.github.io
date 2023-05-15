@@ -26,11 +26,14 @@
 
 #body {
     font-family: 'Montserrat';
-    font-size: medium
+    font-size: medium;
 }
 .font-black{
     color: black;
     text-decoration: none;
     font-size: 14px;
     line-height: normal;
+}
+.p-height{
+    height: 73px;
 }
