@@ -19,7 +19,7 @@ document.getElementById('addNavBar').insertAdjacentHTML('beforeend',
             <nav role="navigation" class="nav-menu-wrapper w-nav-menu">
                 <ul role="list" class="nav-menu w-list-unstyled">
                     <li class="list-item-14">
-                        <a href="/" aria-current="page" class="nav-link-2 ${routeChecker('home')}">HOME</a>
+                        <a href="https://saravanan-murugan.webflow.io/" aria-current="page" class="nav-link-2 ${routeChecker('home')}">HOME</a>
                     </li>
                     <li class="list-item-15"><a href="https://saravananmurugan06.github.io/project.html"
                             class="nav-link-2 ${routeChecker('project')}">PROJECTS</a></li>
