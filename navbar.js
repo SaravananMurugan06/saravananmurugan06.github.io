@@ -26,26 +26,6 @@ document.getElementById('addNavBar').insertAdjacentHTML('beforeend',
                     <li class="list-item-16"><a href="https://demo-site-fa1620.webflow.io" class="nav-link-2 ${routeChecker('about')}">ABOUT</a>
                     </li>
                     <li class="list-item-17"><a href="/contact" class="nav-link-2">CONTACT</a></li>
-                    <li>
-                        <div data-hover="false" data-delay="0" class="nav-dropdown w-dropdown">
-                            <div class="nav-dropdown-toggle w-dropdown-toggle" id="w-dropdown-toggle-0"
-                                aria-controls="w-dropdown-list-0" aria-haspopup="menu" aria-expanded="false"
-                                role="button" tabindex="0">
-                                <div class="nav-dropdown-icon w-icon-dropdown-toggle" aria-hidden="true">
-                            </div>
-                            <div>Resources</div>
-                            </div>
-                            <nav class="nav-dropdown-list shadow-three mobile-shadow-hide w-dropdown-list"
-                                id="w-dropdown-list-0" aria-labelledby="w-dropdown-toggle-0">
-                                <a href="#" class="nav-dropdown-link w-dropdown-link" tabindex="0">Resource Link
-                                    1</a>
-                                <a href="#" class="nav-dropdown-link w-dropdown-link" tabindex="0">Resource Link
-                                    2</a>
-                                <a href="#" class="nav-dropdown-link w-dropdown-link" tabindex="0">Resource Link
-                                    3</a>
-                            </nav>
-                        </div>
-                    </li>
                     <li class="mobile-margin-top-10">
                         <div class="nav-button-wrapper">
                             <a href="tel:91+8870023236" class="button-primary w-button">CONNECT</a>
