@@ -7,7 +7,7 @@
     display: flex;
     overflow: hidden;
     border: solid;
-    color: wheat;
+    color: #f0f0f0;
 }
 
 .radio-switch>input+label {
@@ -45,8 +45,7 @@
 @media (min-width:768px) {
     .radio-switch>input+label {
         padding: 15px 59px;
-        font-size: 20px;
-        min-width: 200px
+        font-size: 16px;
     }
 }
 
