@@ -45,27 +45,29 @@ document.getElementById('addNavBar').insertAdjacentHTML('beforeend',
 
 document.getElementById('addFooterBar').insertAdjacentHTML('beforeend', `
 <div class="container-8">
-    <div class="footer-wrapper-three-2"><a href="/" aria-current="page" class="w-inline-block w--current"><img
+    <div class="footer-wrapper-three-2"><a href="/" aria-current="page" class="w-inline-block w--current footer-object"><img
                 src="https://uploads-ssl.webflow.com/6267b69b3043423e90c33ceb/6427d19c2b8b8c5130431476_Wolf.webp"
                 loading="lazy" width="152.5" alt="Wolf Logo"></a>
-        <div class="footer-block-three-2"><a href="${homeLink}" aria-current="page"
-                class="footer-link-three-2 ${path == 'project' ? 'w--current' : ''}">Home</a><a href="${projectLink}"
-                class="footer-link-three-2 ${path == 'project' ? 'w--current' : ''}">Projects</a><a href="/contact" class="footer-link-three-2">Contact</a>
-        </div>
+        <div class="footer-block-three-2"><a href="/" aria-current="page"
+                class="footer-link-three-2 w--current">Home</a><a
+                href="https://saravananmurugan06.github.io/project.html" class="footer-link-three-2">Projects</a><a
+                href="https://demo-site-fa1620.webflow.io" class="footer-link-three-2">About</a><a href="/contact"
+                class="footer-link-three-2">Contact</a></div>
         <div class="footer-social-block-three-2"><a href="http://www.dribbble.com/Saravanan_Murugan" target="_blank"
-                class="footer-social-link-three-2 w-inline-block"><img
+                class="footer-social-link-three-2 w-inline-block footer-object"><img
                     src="https://uploads-ssl.webflow.com/6267b69b3043423e90c33ceb/6325f4304d23be236a27127c_Dribbble.webp"
-                    loading="lazy" width="24" alt="Dribbble Logo" class="image-15"></a><a
-                href="http://www.twitter.com/Saravan73122331" target="_blank"
-                class="footer-social-link-three-2 w-inline-block"><img
+                    loading="lazy" width="24" alt="Dribbble Logo" class="image-15" style="
+    width: 24px;
+"></a><a href="http://www.twitter.com/Saravan73122331" target="_blank"
+                class="footer-social-link-three-2 w-inline-block footer-object"><img
                     src="https://uploads-ssl.webflow.com/62434fa732124a0fb112aab4/62434fa732124ab37a12aaf0_twitter%20big.svg"
                     loading="lazy" width="24" alt="Twitter Logo" class="image-16"></a><a
                 href="http://www.instagram.com/designers_hook/" target="_blank"
-                class="footer-social-link-three-2 w-inline-block"><img
+                class="footer-social-link-three-2 w-inline-block footer-object"><img
                     src="https://uploads-ssl.webflow.com/62434fa732124a0fb112aab4/62434fa732124a61f512aaed_instagram%20big.svg"
                     loading="lazy" width="24" alt="Instagram Logo" class="image-17"></a><a
                 href="http://www.linkedin.com/in/saravanan-murugan-576947145/" target="_blank"
-                class="footer-social-link-three-2 w-inline-block"><img
+                class="footer-social-link-three-2 w-inline-block footer-object"><img
                     src="https://uploads-ssl.webflow.com/6267b69b3043423e90c33ceb/632618e19afbe105d3aabf1a_Linkedin.webp"
                     loading="lazy" width="24" alt="Linkedin Logo" class="image-18"></a></div>
     </div>
