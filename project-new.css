@@ -3349,3 +3349,11 @@ textarea.w-select {
         align-items: flex-start;
     }
 }
+
+div .listitem {
+    box-shadow: 0 8px 14px rgba(0,0,0,.2);
+    background-color: #fff;
+    border-radius: 12px;
+    width: 420px;
+    box-sizing: border-box;
+}
