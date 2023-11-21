@@ -308,9 +308,9 @@
             <script>
                 let getUIForCaseStudy = (item) => `
                 <div role="listitem" class="col-sm-12 col-md-4 col-lg-3 p-0 m-4 listitem">
-                    <div class="zoom d-flex justify-content-center"><img src="${item.src}" alt="img"
+                    <a href="${item.href}" class="zoom d-flex justify-content-center"><img src="${item.src}" alt="img"
                         width="100%" height="300px" class="image-cover">
-                    </div>
+                    </a>
                     <div class="p-4">
                         <div class="pt-4">
                             <h6 class="font-weight-bold project-title p-2">${item.case_study}</h6>
@@ -321,7 +321,7 @@
                     </div>
                 </div>`
                 let elements = [
-                    { src: 'https://uploads-ssl.webflow.com/64fb86f225424d3a5dfe0f60/64fc42ac23d3c065b37313de_UX%20Case%20Study%20(Tap%20to%20Pay).jpg', case_study: 'Case Study', title: 'Tap to Pay' },
+                    { href: "./tap_to_pay_case_study.html", src: 'https://uploads-ssl.webflow.com/64fb86f225424d3a5dfe0f60/64fc42ac23d3c065b37313de_UX%20Case%20Study%20(Tap%20to%20Pay).jpg', case_study: 'Case Study', title: 'Tap to Pay' },
                     // { src: 'https://uploads-ssl.webflow.com/64fb86f225424d3a5dfe0f60/64fcc90e32e616517b7dd253_UX%20Case%20Study%20(Tap%20to%20Pay)%202.jpg', case_study: 'Case Study', title: 'Tap to Pay' },
                     // { src: 'https://uploads-ssl.webflow.com/64fb86f225424d3a5dfe0f60/64fcc90e5104afb6b05b2315_UX%20Case%20Study%20(Tap%20to%20Pay)%203.jpg', case_study: 'Case Study', title: 'Tap to Pay' },
                     // { src: 'https://uploads-ssl.webflow.com/64fb86f225424d3a5dfe0f60/64fcc90c3fa71661e73d82c5_UX%20Case%20Study%20(Tap%20to%20Pay)%204.jpg', case_study: 'Case Study', title: 'Tap to Pay' },
