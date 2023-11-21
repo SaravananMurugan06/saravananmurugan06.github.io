@@ -23,7 +23,7 @@ document.getElementById('addNavBar').insertAdjacentHTML('beforeend',
                     </li>
                     <li class="list-item-15"><a href="https://saravananmurugan06.github.io/project.html"
                             class="nav-link-2 ${routeChecker('project')}">PROJECTS</a></li>
-                    <li class="list-item-16"><a href="https://demo-site-fa1620.webflow.io" class="nav-link-2 ${routeChecker('about')}">ABOUT</a>
+                    <li class="list-item-16"><a href="https://saravananmurugan06.github.io/about.html" class="nav-link-2 ${routeChecker('about')}">ABOUT</a>
                     </li>
                     <li class="list-item-17"><a href="/contact" class="nav-link-2">CONTACT</a></li>
                     <li class="mobile-margin-top-10">
@@ -51,7 +51,7 @@ document.getElementById('addFooterBar').insertAdjacentHTML('beforeend', `
         <div class="footer-block-three-2"><a href="/" aria-current="page"
                 class="footer-link-three-2 w--current">Home</a><a
                 href="https://saravananmurugan06.github.io/project.html" class="footer-link-three-2">Projects</a><a
-                href="https://demo-site-fa1620.webflow.io" class="footer-link-three-2">About</a><a href="/contact"
+                href="https://saravananmurugan06.github.io/about.html" class="footer-link-three-2">About</a><a href="/contact"
                 class="footer-link-three-2">Contact</a></div>
         <div class="footer-social-block-three-2"><a href="http://www.dribbble.com/Saravanan_Murugan" target="_blank"
                 class="footer-social-link-three-2 w-inline-block footer-object"><img
